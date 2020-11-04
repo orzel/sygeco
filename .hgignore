@@ -1,0 +1,15 @@
+syntax: glob
+*.orig
+*.pyc
+*.diff
+*.save
+*.old
+core
+core.*
+*~
+*.ignore
+*.bak
+CMakeFiles
+diff
+.*.swp
+activity.png
