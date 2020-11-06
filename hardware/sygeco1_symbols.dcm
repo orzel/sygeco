@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5-way-joystick-switch
+D Alps, SKQUCAA010, 2 Way Joystick Switch Plunger, Momentary, 12V dc
+F https://www.mouser.co.uk/datasheet/2/15/skqu-1155891.pdf
+$ENDCMP
+#
+$CMP SSD1306_module
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

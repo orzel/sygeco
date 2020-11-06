@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 5-way-joystick-switch
+#
+DEF 5-way-joystick-switch S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "5-way-joystick-switch" 650 200 50 H V L CNN
+F2 "SKQUCAA010" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Alps, SKQUCAA010, 2 Way Joystick Switch Plunger, Momentary, 12V dc" 650 -100 50 H I L CNN "Description"
+F5 "10" 650 -200 50 H I L CNN "Height"
+F6 "ALPS" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SKQUCAA010" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "688-SKQUCA" 650 -700 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ALPS/SKQUCAA010?qs=N5Jky1br14PIN8L1H%2F2niA%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X A 1 0 0 200 R 50 50 0 0 P
+X B 2 0 -100 200 R 50 50 0 0 P
+X C 3 0 -200 200 R 50 50 0 0 P
+X Com 4 800 -200 200 L 50 50 0 0 P
+X D 5 800 -100 200 L 50 50 0 0 P
+X Center 6 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SSD1306_module
+#
+DEF SSD1306_module J 0 40 Y Y 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "SSD1306_module" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+X SDA 1 -200 100 150 R 50 50 1 1 B
+X SCL 2 -200 0 150 R 50 50 1 1 O
+X Vcc 3 -200 -100 150 R 50 50 1 1 w
+X GND 4 -200 -200 150 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

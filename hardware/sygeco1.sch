@@ -1,4 +1,364 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr User 8299 5846
+encoding utf-8
+Sheet 1 1
+Title "Sygeco 1"
+Date ""
+Rev "0.1"
+Comp "Sylphide Consulting"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20PU U1
+U 1 1 5FA23A8A
+P 4200 3050
+F 0 "U1" H 3671 3096 50  0000 R CNN
+F 1 "ATtiny85-20PU" H 3671 3005 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4200 3050 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 4200 3050 50  0001 C CNN
+	1    4200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS1
+U 1 1 5FA28788
+P 6500 3300
+F 0 "LS1" H 6670 3296 50  0000 L CNN
+F 1 "Speaker" H 6670 3205 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_15x7.5RM7.6" H 6500 3100 50  0001 C CNN
+F 3 "~" H 6490 3250 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FA2F1A9
+P 5900 1700
+F 0 "R2" H 5970 1746 50  0000 L CNN
+F 1 "100k" H 5970 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5830 1700 50  0001 C CNN
+F 3 "~" H 5900 1700 50  0001 C CNN
+	1    5900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FA2FA50
+P 5500 1200
+F 0 "R3" H 5570 1246 50  0000 L CNN
+F 1 "50k" H 5570 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5430 1200 50  0001 C CNN
+F 3 "~" H 5500 1200 50  0001 C CNN
+	1    5500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FA31FF1
+P 1350 4250
+F 0 "#PWR0101" H 1350 4000 50  0001 C CNN
+F 1 "GND" H 1355 4077 50  0000 C CNN
+F 2 "" H 1350 4250 50  0001 C CNN
+F 3 "" H 1350 4250 50  0001 C CNN
+	1    1350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5FA32D44
+P 2250 3850
+F 0 "#PWR0102" H 2250 3700 50  0001 C CNN
+F 1 "VCC" H 2265 4023 50  0000 C CNN
+F 2 "" H 2250 3850 50  0001 C CNN
+F 3 "" H 2250 3850 50  0001 C CNN
+	1    2250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FA47060
+P 4200 3650
+F 0 "#PWR0105" H 4200 3400 50  0001 C CNN
+F 1 "GND" H 4205 3477 50  0000 C CNN
+F 2 "" H 4200 3650 50  0001 C CNN
+F 3 "" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 3250 2    50   Input ~ 0
+PAD_AXE_1
+Text GLabel 4950 3050 2    50   Input ~ 0
+PAD_AXE_2
+Wire Wire Line
+	4950 3050 4800 3050
+Wire Wire Line
+	4950 3250 4800 3250
+$Comp
+L Device:R R5
+U 1 1 5FA61B1A
+P 4100 1600
+F 0 "R5" H 4170 1646 50  0000 L CNN
+F 1 "100k" H 4170 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4030 1600 50  0001 C CNN
+F 3 "~" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FA61B20
+P 4100 1150
+F 0 "R4" H 4170 1196 50  0000 L CNN
+F 1 "100k" H 4170 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4030 1150 50  0001 C CNN
+F 3 "~" H 4100 1150 50  0001 C CNN
+	1    4100 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 1350 0    50   Input ~ 0
+PAD_AXE_2
+$Comp
+L power:VCC #PWR0107
+U 1 1 5FA65A01
+P 4100 1000
+F 0 "#PWR0107" H 4100 850 50  0001 C CNN
+F 1 "VCC" H 4115 1173 50  0000 C CNN
+F 2 "" H 4100 1000 50  0001 C CNN
+F 3 "" H 4100 1000 50  0001 C CNN
+	1    4100 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 2750 2    50   Input ~ 0
+SDA
+Text GLabel 4950 2950 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	4950 2750 4800 2750
+Wire Wire Line
+	4950 2950 4800 2950
+$Comp
+L sygeco1_symbols:SSD1306_module J1
+U 1 1 5FA9DE86
+P 2050 1550
+F 0 "J1" H 2078 1526 50  0001 L CNN
+F 1 "SSD1306_module" H 2078 1435 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2050 1550 50  0001 C CNN
+F 3 "~" H 2050 1550 50  0001 C CNN
+	1    2050 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 1450 0    50   Input ~ 0
+SDA
+Text GLabel 1750 1550 0    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR0108
+U 1 1 5FAA304D
+P 1400 1750
+F 0 "#PWR0108" H 1400 1500 50  0001 C CNN
+F 1 "GND" H 1405 1577 50  0000 C CNN
+F 2 "" H 1400 1750 50  0001 C CNN
+F 3 "" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 5FAA635F
+P 1400 1650
+F 0 "#PWR0109" H 1400 1500 50  0001 C CNN
+F 1 "VCC" H 1415 1823 50  0000 C CNN
+F 2 "" H 1400 1650 50  0001 C CNN
+F 3 "" H 1400 1650 50  0001 C CNN
+	1    1400 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1650 1400 1650
+Wire Wire Line
+	1400 1750 1850 1750
+Wire Wire Line
+	1850 1550 1750 1550
+Wire Wire Line
+	1850 1450 1750 1450
+$Comp
+L sygeco1_symbols:5-way-joystick-switch S1
+U 1 1 5FABFAD7
+P 4550 1350
+F 0 "S1" H 4950 1615 50  0000 C CNN
+F 1 "5-way-joystick-switch" H 4950 1524 50  0000 C CNN
+F 2 "sygeco:SKQUCAA010" H 5200 1450 50  0001 L CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/15/skqu-1155891.pdf" H 5200 1350 50  0001 L CNN
+F 4 "Alps, SKQUCAA010, 2 Way Joystick Switch Plunger, Momentary, 12V dc" H 5200 1250 50  0001 L CNN "Description"
+F 5 "10" H 5200 1150 50  0001 L CNN "Height"
+F 6 "ALPS" H 5200 1050 50  0001 L CNN "Manufacturer_Name"
+F 7 "SKQUCAA010" H 5200 950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "688-SKQUCA" H 5200 650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ALPS/SKQUCAA010?qs=N5Jky1br14PIN8L1H%2F2niA%3D%3D" H 5200 550 50  0001 L CNN "Mouser Price/Stock"
+	1    4550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5FACD3FA
+P 5350 1550
+F 0 "#PWR01" H 5350 1300 50  0001 C CNN
+F 1 "GND" H 5355 1377 50  0000 C CNN
+F 2 "" H 5350 1550 50  0001 C CNN
+F 3 "" H 5350 1550 50  0001 C CNN
+	1    5350 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1550 4550 1750
+Wire Wire Line
+	4550 1750 4100 1750
+Wire Wire Line
+	4550 1350 4100 1350
+Wire Wire Line
+	4100 1350 4100 1300
+Wire Wire Line
+	4100 1350 4100 1450
+Connection ~ 4100 1350
+Wire Wire Line
+	4100 1350 3950 1350
+Wire Wire Line
+	5350 1350 5500 1350
+Text GLabel 6000 1450 2    50   Input ~ 0
+PAD_AXE_1
+$Comp
+L Device:R R1
+U 1 1 5FA2F46F
+P 5900 1200
+F 0 "R1" H 5970 1246 50  0000 L CNN
+F 1 "100k" H 5970 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5830 1200 50  0001 C CNN
+F 3 "~" H 5900 1200 50  0001 C CNN
+	1    5900 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1450 5900 1450
+Wire Wire Line
+	5900 1450 5900 1550
+Connection ~ 5900 1450
+Wire Wire Line
+	5900 1450 5350 1450
+Wire Wire Line
+	5900 1350 5900 1450
+Wire Wire Line
+	4550 1450 4450 1450
+Wire Wire Line
+	4450 1450 4450 1850
+Wire Wire Line
+	4450 1850 5900 1850
+$Comp
+L power:VCC #PWR02
+U 1 1 5FB4796C
+P 5700 1050
+F 0 "#PWR02" H 5700 900 50  0001 C CNN
+F 1 "VCC" H 5715 1223 50  0000 C CNN
+F 2 "" H 5700 1050 50  0001 C CNN
+F 3 "" H 5700 1050 50  0001 C CNN
+	1    5700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1050 5700 1050
+Wire Wire Line
+	5700 1050 5900 1050
+Connection ~ 5700 1050
+Text GLabel 5600 2000 2    50   Input ~ 0
+Button
+Wire Wire Line
+	5500 1350 5500 2000
+Connection ~ 5500 1350
+Wire Wire Line
+	5500 2000 5600 2000
+Text GLabel 4950 2850 2    50   Input ~ 0
+Button
+Wire Wire Line
+	4950 2850 4800 2850
+$Comp
+L power:VCC #PWR0103
+U 1 1 5FB7AF81
+P 4200 2450
+F 0 "#PWR0103" H 4200 2300 50  0001 C CNN
+F 1 "VCC" H 4215 2623 50  0000 C CNN
+F 2 "" H 4200 2450 50  0001 C CNN
+F 3 "" H 4200 2450 50  0001 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 5FA4266A
+P 1850 3950
+F 0 "SW1" H 1850 4435 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 1850 4344 50  0000 C CNN
+F 2 "sygeco:DPDT_Switch_with_lock" H 1850 4150 50  0001 C CNN
+F 3 "~" H 1850 4150 50  0001 C CNN
+	1    1850 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3850 2250 3850
+$Comp
+L Switch:SW_Push_DPDT SW2
+U 1 1 5FA546EE
+P 5850 3250
+F 0 "SW2" H 5850 3735 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 5850 3644 50  0000 C CNN
+F 2 "sygeco:DPDT_Switch_with_lock" H 5850 3450 50  0001 C CNN
+F 3 "~" H 5850 3450 50  0001 C CNN
+	1    5850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3150 6300 3150
+Wire Wire Line
+	6300 3150 6300 3300
+NoConn ~ 2050 3650
+NoConn ~ 2050 4050
+NoConn ~ 6050 2950
+NoConn ~ 6050 3350
+NoConn ~ 450  2200
+NoConn ~ 6050 3550
+Wire Wire Line
+	6300 3400 6300 3650
+Wire Wire Line
+	6300 3650 4200 3650
+Connection ~ 4200 3650
+Wire Wire Line
+	5650 3050 5650 3150
+Wire Wire Line
+	5650 3150 4800 3150
+Wire Wire Line
+	1650 4150 1650 3950
+Wire Wire Line
+	1350 3950 1650 3950
+Connection ~ 1650 3950
+Wire Wire Line
+	1650 3950 1650 3750
+Wire Wire Line
+	2050 4250 2250 4250
+Wire Wire Line
+	2250 4250 2250 3850
+Connection ~ 2250 3850
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5FA2AB80
+P 1350 4150
+F 0 "BT1" H 1468 4246 50  0000 L CNN
+F 1 "Battery_Cell" H 1468 4155 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3009_1x2450" V 1350 4210 50  0001 C CNN
+F 3 "~" V 1350 4210 50  0001 C CNN
+	1    1350 4150
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
