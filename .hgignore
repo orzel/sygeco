@@ -1,4 +1,6 @@
 syntax: glob
+
+# generic
 *.orig
 *.pyc
 *.diff
@@ -9,7 +11,16 @@ core.*
 *~
 *.ignore
 *.bak
-CMakeFiles
 diff
 .*.swp
+
+# hg activity
 activity.png
+
+# kicad:
+*-bak
+*-cache
+*-table
+*.bck
+*-cache.lib
+_autosave*
