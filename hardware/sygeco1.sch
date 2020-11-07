@@ -30,7 +30,7 @@ U 1 1 5FA28788
 P 6500 3300
 F 0 "LS1" H 6670 3296 50  0000 L CNN
 F 1 "Speaker" H 6670 3205 50  0000 L CNN
-F 2 "Buzzer_Beeper:Buzzer_15x7.5RM7.6" H 6500 3100 50  0001 C CNN
+F 2 "Buzzer_Beeper:MagneticBuzzer_ProSignal_ABT-410-RC" H 6500 3100 50  0001 C CNN
 F 3 "~" H 6490 3250 50  0001 C CNN
 	1    6500 3300
 	1    0    0    -1  
@@ -356,7 +356,7 @@ U 1 1 5FA2AB80
 P 1350 4150
 F 0 "BT1" H 1468 4246 50  0000 L CNN
 F 1 "Battery_Cell" H 1468 4155 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3009_1x2450" V 1350 4210 50  0001 C CNN
+F 2 "sygeco:BatteryHolder_China_1x20mm" V 1350 4210 50  0001 C CNN
 F 3 "~" V 1350 4210 50  0001 C CNN
 	1    1350 4150
 	-1   0    0    -1  

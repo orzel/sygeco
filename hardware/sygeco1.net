@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/orzel/hg/sygeco1/hardware/sygeco1.sch)
-    (date "Fri 06 Nov 2020 01:41:30 CET")
+    (date "Fri 06 Nov 2020 11:13:55 CET")
     (tool "Eeschema 5.1.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 5FA23A8A))
     (comp (ref LS1)
       (value Speaker)
-      (footprint Buzzer_Beeper:Buzzer_15x7.5RM7.6)
+      (footprint Buzzer_Beeper:MagneticBuzzer_ProSignal_ABT-410-RC)
       (datasheet ~)
       (libsource (lib Device) (part Speaker) (description Speaker))
       (sheetpath (names /) (tstamps /))
@@ -101,7 +101,7 @@
       (tstamp 5FA546EE))
     (comp (ref BT1)
       (value Battery_Cell)
-      (footprint Battery:BatteryHolder_Keystone_3009_1x2450)
+      (footprint sygeco:BatteryHolder_China_1x20mm)
       (datasheet ~)
       (libsource (lib Device) (part Battery_Cell) (description "Single-cell battery"))
       (sheetpath (names /) (tstamps /))
