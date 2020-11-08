@@ -24,3 +24,4 @@ activity.png
 *.bck
 *-cache.lib
 _autosave*
+*-rescue.*
