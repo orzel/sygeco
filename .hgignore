@@ -20,7 +20,6 @@ activity.png
 # kicad:
 *-bak
 *-cache
-*-table
 *.bck
 *-cache.lib
 _autosave*
