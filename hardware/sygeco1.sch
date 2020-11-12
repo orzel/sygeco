@@ -454,8 +454,8 @@ Wire Wire Line
 Connection ~ 2350 4100
 Text Notes 2800 4600 0    50   ~ 0
 decoupling
-Text Notes 1950 2250 0    50   ~ 0
-programming
+Text Notes 1900 2200 0    50   ~ 0
+ISP (programming)
 Text Notes 1850 900  0    50   ~ 0
 OLED Display
 Text Notes 5350 900  0    50   ~ 0
