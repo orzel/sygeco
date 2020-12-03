@@ -91,9 +91,9 @@ F 3 "" H 4600 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5350 3200 2    50   Input ~ 0
-PAD_AXE_1
+PAD_AXIS_1
 Text GLabel 5350 3000 2    50   Input ~ 0
-PAD_AXE_2
+PAD_AXIS_2
 Wire Wire Line
 	5350 3000 5200 3000
 Wire Wire Line
@@ -110,7 +110,7 @@ F 3 "~" H 4650 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4500 1400 0    50   Input ~ 0
-PAD_AXE_2
+PAD_AXIS_2
 $Comp
 L power:VCC #PWR0107
 U 1 1 5FA65A01
@@ -219,7 +219,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 1400 6050 1400
 Text GLabel 6550 1500 2    50   Input ~ 0
-PAD_AXE_1
+PAD_AXIS_1
 $Comp
 L Device:R R1
 U 1 1 5FA2F46F
@@ -309,15 +309,13 @@ F 3 "~" H 6250 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 3100 6700 3100
+	6450 3100 6550 3100
 Wire Wire Line
 	6700 3100 6700 3250
 NoConn ~ 2000 3900
 NoConn ~ 2000 4300
 NoConn ~ 6450 2900
-NoConn ~ 6450 3300
 NoConn ~ 450  2200
-NoConn ~ 6450 3500
 Wire Wire Line
 	6700 3350 6700 3600
 Wire Wire Line
@@ -349,7 +347,6 @@ F 3 "~" V 1300 4460 50  0001 C CNN
 	1    1300 4400
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6050 3400
 $Comp
 L Connector:AVR-ISP-6 J2
 U 1 1 5FA6E1A1
@@ -384,7 +381,7 @@ F 3 "" H 1750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2350 2800 2    50   Input ~ 0
-PAD_AXE_1
+PAD_AXIS_1
 Text GLabel 2350 2700 2    50   Input ~ 0
 SCL
 Text GLabel 2350 2600 2    50   Input ~ 0
@@ -404,7 +401,7 @@ L Device:R R6
 U 1 1 5FA79D6B
 P 2350 4250
 F 0 "R6" H 2420 4296 50  0000 L CNN
-F 1 "15" H 2420 4205 50  0000 L CNN
+F 1 "60~100" H 2420 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2280 4250 50  0001 C CNN
 F 3 "~" H 2350 4250 50  0001 C CNN
 	1    2350 4250
@@ -471,4 +468,15 @@ F 3 "~" H 4650 1650 50  0001 C CNN
 	1    4650 1650
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6450 3300
+Wire Wire Line
+	6450 3500 6550 3500
+Wire Wire Line
+	6550 3500 6550 3100
+Connection ~ 6550 3100
+Wire Wire Line
+	6550 3100 6700 3100
+Wire Wire Line
+	6050 3400 6050 3100
+Connection ~ 6050 3100
 $EndSCHEMATC
