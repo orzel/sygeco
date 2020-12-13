@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Sygeco 1"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Sylphide Consulting"
 Comment1 ""
 Comment2 ""
@@ -410,12 +410,12 @@ $EndComp
 $Comp
 L Device:Speaker LS1
 U 1 1 5FA28788
-P 6750 3200
-F 0 "LS1" H 6920 3196 50  0000 L CNN
-F 1 "Speaker" H 6920 3105 50  0000 L CNN
-F 2 "Buzzer_Beeper:MagneticBuzzer_ProSignal_ABT-410-RC" H 6750 3000 50  0001 C CNN
-F 3 "~" H 6740 3150 50  0001 C CNN
-	1    6750 3200
+P 6800 3200
+F 0 "LS1" H 6970 3196 50  0000 L CNN
+F 1 "Speaker" H 6970 3105 50  0000 L CNN
+F 2 "Buzzer_Beeper:MagneticBuzzer_ProSignal_ABT-410-RC" H 6800 3000 50  0001 C CNN
+F 3 "~" H 6790 3150 50  0001 C CNN
+	1    6800 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -524,18 +524,14 @@ $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5FE29128
-P 6550 3750
-F 0 "#PWR0104" H 6550 3500 50  0001 C CNN
-F 1 "GND" H 6555 3577 50  0000 C CNN
-F 2 "" H 6550 3750 50  0001 C CNN
-F 3 "" H 6550 3750 50  0001 C CNN
-	1    6550 3750
+P 6600 3500
+F 0 "#PWR0104" H 6600 3250 50  0001 C CNN
+F 1 "GND" H 6605 3327 50  0000 C CNN
+F 2 "" H 6600 3500 50  0001 C CNN
+F 3 "" H 6600 3500 50  0001 C CNN
+	1    6600 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 3450 6550 3300
-Wire Wire Line
-	6300 3200 6550 3200
 Wire Wire Line
 	6300 2800 7350 2800
 Wire Wire Line
@@ -592,12 +588,14 @@ $EndComp
 $Comp
 L Device:R R10
 U 1 1 5FE5BFCE
-P 6550 3600
-F 0 "R10" H 6620 3646 50  0000 L CNN
-F 1 "220" H 6620 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6480 3600 50  0001 C CNN
-F 3 "~" H 6550 3600 50  0001 C CNN
-	1    6550 3600
-	1    0    0    -1  
+P 6450 3200
+F 0 "R10" H 6520 3246 50  0000 L CNN
+F 1 "220" H 6520 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6380 3200 50  0001 C CNN
+F 3 "~" H 6450 3200 50  0001 C CNN
+	1    6450 3200
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	6600 3500 6600 3300
 $EndSCHEMATC
