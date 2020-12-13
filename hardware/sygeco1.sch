@@ -36,25 +36,14 @@ F 3 "~" H 6890 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5FA2F1A9
-P 6550 1750
-F 0 "R2" H 6620 1796 50  0000 L CNN
-F 1 "50k" H 6620 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6480 1750 50  0001 C CNN
-F 3 "~" H 6550 1750 50  0001 C CNN
-	1    6550 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R3
 U 1 1 5FA2FA50
-P 6150 1250
-F 0 "R3" H 6220 1296 50  0000 L CNN
-F 1 "50k" H 6220 1205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6080 1250 50  0001 C CNN
-F 3 "~" H 6150 1250 50  0001 C CNN
-	1    6150 1250
+P 6050 1500
+F 0 "R3" H 6120 1546 50  0000 L CNN
+F 1 "50k" H 6120 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5980 1500 50  0001 C CNN
+F 3 "~" H 6050 1500 50  0001 C CNN
+	1    6050 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -98,30 +87,6 @@ Wire Wire Line
 	5350 3000 5200 3000
 Wire Wire Line
 	5350 3200 5200 3200
-$Comp
-L Device:R R4
-U 1 1 5FA61B20
-P 4750 1200
-F 0 "R4" H 4820 1246 50  0000 L CNN
-F 1 "50k" H 4820 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4680 1200 50  0001 C CNN
-F 3 "~" H 4750 1200 50  0001 C CNN
-	1    4750 1200
-	1    0    0    -1  
-$EndComp
-Text GLabel 4600 1400 0    50   Input ~ 0
-PAD_AXIS_2
-$Comp
-L power:VCC #PWR0107
-U 1 1 5FA65A01
-P 4750 1050
-F 0 "#PWR0107" H 4750 900 50  0001 C CNN
-F 1 "VCC" H 4765 1223 50  0000 C CNN
-F 2 "" H 4750 1050 50  0001 C CNN
-F 3 "" H 4750 1050 50  0001 C CNN
-	1    4750 1050
-	1    0    0    -1  
-$EndComp
 Text GLabel 5350 2700 2    50   Input ~ 0
 SDA
 Text GLabel 5350 2900 2    50   Input ~ 0
@@ -133,142 +98,97 @@ Wire Wire Line
 $Comp
 L sygeco1_symbols:SSD1306_module J1
 U 1 1 5FA9DE86
-P 3250 1300
-F 0 "J1" H 3278 1276 50  0001 L CNN
-F 1 "SSD1306_module" H 3278 1185 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 3250 1300 50  0001 C CNN
-F 3 "~" H 3250 1300 50  0001 C CNN
-	1    3250 1300
+P 2900 1200
+F 0 "J1" H 2928 1176 50  0001 L CNN
+F 1 "SSD1306_module" H 2928 1085 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2900 1200 50  0001 C CNN
+F 3 "~" H 2900 1200 50  0001 C CNN
+	1    2900 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 1200 0    50   Input ~ 0
+Text GLabel 2600 1100 0    50   Input ~ 0
 SDA
-Text GLabel 2950 1300 0    50   Input ~ 0
+Text GLabel 2600 1200 0    50   Input ~ 0
 SCL
 $Comp
 L power:GND #PWR0108
 U 1 1 5FAA304D
-P 2600 1500
-F 0 "#PWR0108" H 2600 1250 50  0001 C CNN
-F 1 "GND" H 2605 1327 50  0000 C CNN
-F 2 "" H 2600 1500 50  0001 C CNN
-F 3 "" H 2600 1500 50  0001 C CNN
-	1    2600 1500
+P 2250 1400
+F 0 "#PWR0108" H 2250 1150 50  0001 C CNN
+F 1 "GND" H 2255 1227 50  0000 C CNN
+F 2 "" H 2250 1400 50  0001 C CNN
+F 3 "" H 2250 1400 50  0001 C CNN
+	1    2250 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0109
 U 1 1 5FAA635F
-P 2600 1400
-F 0 "#PWR0109" H 2600 1250 50  0001 C CNN
-F 1 "VCC" H 2615 1573 50  0000 C CNN
-F 2 "" H 2600 1400 50  0001 C CNN
-F 3 "" H 2600 1400 50  0001 C CNN
-	1    2600 1400
+P 2250 1300
+F 0 "#PWR0109" H 2250 1150 50  0001 C CNN
+F 1 "VCC" H 2265 1473 50  0000 C CNN
+F 2 "" H 2250 1300 50  0001 C CNN
+F 3 "" H 2250 1300 50  0001 C CNN
+	1    2250 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 1400 2600 1400
+	2700 1300 2250 1300
 Wire Wire Line
-	2600 1500 3050 1500
+	2250 1400 2700 1400
 Wire Wire Line
-	3050 1300 2950 1300
+	2700 1200 2600 1200
 Wire Wire Line
-	3050 1200 2950 1200
+	2700 1100 2600 1100
 $Comp
 L sygeco1_symbols:5-way-joystick-switch S1
 U 1 1 5FABFAD7
-P 5200 1400
-F 0 "S1" H 5600 1665 50  0000 C CNN
-F 1 "5-way-joystick-switch" H 5600 1574 50  0000 C CNN
-F 2 "sygeco:SKQUCAA010" H 5850 1500 50  0001 L CNN
-F 3 "https://www.mouser.co.uk/datasheet/2/15/skqu-1155891.pdf" H 5850 1400 50  0001 L CNN
-F 4 "Alps, SKQUCAA010, 2 Way Joystick Switch Plunger, Momentary, 12V dc" H 5850 1300 50  0001 L CNN "Description"
-F 5 "10" H 5850 1200 50  0001 L CNN "Height"
-F 6 "ALPS" H 5850 1100 50  0001 L CNN "Manufacturer_Name"
-F 7 "SKQUCAA010" H 5850 1000 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "688-SKQUCA" H 5850 700 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/ALPS/SKQUCAA010?qs=N5Jky1br14PIN8L1H%2F2niA%3D%3D" H 5850 600 50  0001 L CNN "Mouser Price/Stock"
-	1    5200 1400
+P 5100 1650
+F 0 "S1" H 5500 1915 50  0000 C CNN
+F 1 "5-way-joystick-switch" H 5500 1824 50  0000 C CNN
+F 2 "sygeco:SKQUCAA010" H 5750 1750 50  0001 L CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/15/skqu-1155891.pdf" H 5750 1650 50  0001 L CNN
+F 4 "Alps, SKQUCAA010, 2 Way Joystick Switch Plunger, Momentary, 12V dc" H 5750 1550 50  0001 L CNN "Description"
+F 5 "10" H 5750 1450 50  0001 L CNN "Height"
+F 6 "ALPS" H 5750 1350 50  0001 L CNN "Manufacturer_Name"
+F 7 "SKQUCAA010" H 5750 1250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "688-SKQUCA" H 5750 950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ALPS/SKQUCAA010?qs=N5Jky1br14PIN8L1H%2F2niA%3D%3D" H 5750 850 50  0001 L CNN "Mouser Price/Stock"
+	1    5100 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5FACD3FA
-P 6000 1600
-F 0 "#PWR01" H 6000 1350 50  0001 C CNN
-F 1 "GND" H 6005 1427 50  0000 C CNN
-F 2 "" H 6000 1600 50  0001 C CNN
-F 3 "" H 6000 1600 50  0001 C CNN
-	1    6000 1600
+P 5900 1850
+F 0 "#PWR01" H 5900 1600 50  0001 C CNN
+F 1 "GND" H 5905 1677 50  0000 C CNN
+F 2 "" H 5900 1850 50  0001 C CNN
+F 3 "" H 5900 1850 50  0001 C CNN
+	1    5900 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 1600 5200 1800
-Wire Wire Line
-	5200 1800 4750 1800
-Wire Wire Line
-	5200 1400 4750 1400
-Wire Wire Line
-	4750 1400 4750 1350
-Wire Wire Line
-	4750 1400 4750 1500
-Connection ~ 4750 1400
-Wire Wire Line
-	4750 1400 4600 1400
-Wire Wire Line
-	6000 1400 6150 1400
-Text GLabel 6650 1500 2    50   Input ~ 0
+	5900 1650 6050 1650
+Text GLabel 7050 1450 2    50   Input ~ 0
 PAD_AXIS_1
-$Comp
-L Device:R R1
-U 1 1 5FA2F46F
-P 6550 1250
-F 0 "R1" H 6620 1296 50  0000 L CNN
-F 1 "50k" H 6620 1205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6480 1250 50  0001 C CNN
-F 3 "~" H 6550 1250 50  0001 C CNN
-	1    6550 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6650 1500 6550 1500
+	5100 1750 5000 1750
 Wire Wire Line
-	6550 1500 6550 1600
-Connection ~ 6550 1500
-Wire Wire Line
-	6550 1500 6000 1500
-Wire Wire Line
-	6550 1400 6550 1500
-Wire Wire Line
-	5200 1500 5100 1500
-Wire Wire Line
-	5100 1500 5100 1900
-Wire Wire Line
-	5100 1900 6550 1900
+	5000 1750 5000 2150
 $Comp
 L power:VCC #PWR02
 U 1 1 5FB4796C
-P 6350 1100
-F 0 "#PWR02" H 6350 950 50  0001 C CNN
-F 1 "VCC" H 6365 1273 50  0000 C CNN
-F 2 "" H 6350 1100 50  0001 C CNN
-F 3 "" H 6350 1100 50  0001 C CNN
-	1    6350 1100
+P 6050 1350
+F 0 "#PWR02" H 6050 1200 50  0001 C CNN
+F 1 "VCC" H 6065 1523 50  0000 C CNN
+F 2 "" H 6050 1350 50  0001 C CNN
+F 3 "" H 6050 1350 50  0001 C CNN
+	1    6050 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 1100 6350 1100
-Wire Wire Line
-	6350 1100 6550 1100
-Connection ~ 6350 1100
-Text GLabel 6250 2050 2    50   Input ~ 0
+Text GLabel 6150 1650 2    50   Input ~ 0
 Button
-Wire Wire Line
-	6150 1400 6150 2050
-Connection ~ 6150 1400
-Wire Wire Line
-	6150 2050 6250 2050
 Text GLabel 5350 2800 2    50   Input ~ 0
 Button
 Wire Wire Line
@@ -402,7 +322,7 @@ U 1 1 5FA79D6B
 P 2350 4250
 F 0 "R6" H 2420 4296 50  0000 L CNN
 F 1 "60~100" H 2420 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2280 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2280 4250 50  0001 C CNN
 F 3 "~" H 2350 4250 50  0001 C CNN
 	1    2350 4250
 	1    0    0    -1  
@@ -453,21 +373,10 @@ Text Notes 2800 4600 0    50   ~ 0
 decoupling
 Text Notes 2350 2150 0    50   ~ 0
 ISP (programming)
-Text Notes 2700 1050 0    50   ~ 0
+Text Notes 2350 950  0    50   ~ 0
 OLED Display
-Text Notes 5450 900  0    50   ~ 0
+Text Notes 5350 1150 0    50   ~ 0
 Keys Input
-$Comp
-L Device:R R5
-U 1 1 5FA61B1A
-P 4750 1650
-F 0 "R5" H 4820 1696 50  0000 L CNN
-F 1 "50k" H 4820 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4680 1650 50  0001 C CNN
-F 3 "~" H 4750 1650 50  0001 C CNN
-	1    4750 1650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6450 3300
 Wire Wire Line
 	6450 3500 6550 3500
@@ -503,4 +412,135 @@ F 3 "~" H 950 1450 50  0001 C CNN
 $EndComp
 Text Notes 950  1050 0    50   ~ 0
 Screen Standoff
+$Comp
+L Device:R R4
+U 1 1 5FA61B20
+P 4400 1150
+F 0 "R4" H 4470 1196 50  0000 L CNN
+F 1 "22k" H 4470 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4330 1150 50  0001 C CNN
+F 3 "~" H 4400 1150 50  0001 C CNN
+	1    4400 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 1350 0    50   Input ~ 0
+PAD_AXIS_2
+$Comp
+L power:VCC #PWR0107
+U 1 1 5FA65A01
+P 4400 1000
+F 0 "#PWR0107" H 4400 850 50  0001 C CNN
+F 1 "VCC" H 4415 1173 50  0000 C CNN
+F 2 "" H 4400 1000 50  0001 C CNN
+F 3 "" H 4400 1000 50  0001 C CNN
+	1    4400 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1350 4400 1300
+Wire Wire Line
+	4400 1350 4400 1450
+Connection ~ 4400 1350
+Wire Wire Line
+	4400 1350 4250 1350
+$Comp
+L Device:R R1
+U 1 1 5FD73DFA
+P 4550 1600
+F 0 "R1" H 4620 1646 50  0000 L CNN
+F 1 "33k" H 4620 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4480 1600 50  0001 C CNN
+F 3 "~" H 4550 1600 50  0001 C CNN
+	1    4550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FA61B1A
+P 4250 1600
+F 0 "R5" H 4320 1646 50  0000 L CNN
+F 1 "88k" H 4320 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4180 1600 50  0001 C CNN
+F 3 "~" H 4250 1600 50  0001 C CNN
+	1    4250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1450 4400 1450
+Wire Wire Line
+	4400 1450 4550 1450
+Connection ~ 4400 1450
+Wire Wire Line
+	4550 1750 4900 1750
+Wire Wire Line
+	4900 1750 4900 1650
+Wire Wire Line
+	4900 1650 5100 1650
+Wire Wire Line
+	5100 1850 4250 1850
+Wire Wire Line
+	4250 1850 4250 1750
+$Comp
+L Device:R R7
+U 1 1 5FD88E95
+P 6750 1150
+F 0 "R7" H 6820 1196 50  0000 L CNN
+F 1 "22k" H 6820 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6680 1150 50  0001 C CNN
+F 3 "~" H 6750 1150 50  0001 C CNN
+	1    6750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 5FD88E9C
+P 6750 1000
+F 0 "#PWR05" H 6750 850 50  0001 C CNN
+F 1 "VCC" H 6765 1173 50  0000 C CNN
+F 2 "" H 6750 1000 50  0001 C CNN
+F 3 "" H 6750 1000 50  0001 C CNN
+	1    6750 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5FD88EA6
+P 6900 1600
+F 0 "R8" H 6970 1646 50  0000 L CNN
+F 1 "88k" H 6970 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6830 1600 50  0001 C CNN
+F 3 "~" H 6900 1600 50  0001 C CNN
+	1    6900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FD88EAC
+P 6600 1600
+F 0 "R2" H 6670 1646 50  0000 L CNN
+F 1 "33k" H 6670 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6530 1600 50  0001 C CNN
+F 3 "~" H 6600 1600 50  0001 C CNN
+	1    6600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1450 6750 1450
+Wire Wire Line
+	6750 1450 6900 1450
+Connection ~ 6750 1450
+Wire Wire Line
+	6750 1300 6750 1450
+Wire Wire Line
+	7050 1450 6900 1450
+Connection ~ 6900 1450
+Wire Wire Line
+	6050 1650 6150 1650
+Connection ~ 6050 1650
+Wire Wire Line
+	6600 1750 5900 1750
+Wire Wire Line
+	5000 2150 6900 2150
+Wire Wire Line
+	6900 2150 6900 1750
 $EndSCHEMATC
