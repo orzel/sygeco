@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/orzel/hg/sygeco1/hardware/sygeco1.sch)
-    (date "Mon 14 Dec 2020 00:20:08 CET")
+    (date "Mon 14 Dec 2020 21:58:43 CET")
     (tool "Eeschema 5.1.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -58,7 +58,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5FD8DBD6))
     (comp (ref R3)
-      (value 50k)
+      (value 10k)
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
