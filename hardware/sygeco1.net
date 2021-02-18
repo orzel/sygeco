@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/orzel/hg/sygeco1/hardware/sygeco1.sch)
-    (date "Mon 14 Dec 2020 21:58:43 CET")
-    (tool "Eeschema 5.1.7")
+    (date "Thu 18 Feb 2021 20:50:24 CET")
+    (tool "Eeschema 5.1.9")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Sygeco 1")
