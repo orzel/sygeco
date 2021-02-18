@@ -21,9 +21,9 @@ from PySide2.QtWidgets import QMainWindow, QApplication, QLabel, QGridLayout, QG
 # programmer known by avrdude, typically usbasp, arduino, ..
 AVRDUDE_PROGRAMMER = "usbasp"
 
-APP_IMAGE_WIDTH = 300
-APP_IMAGE_HEIGHT = 120
-GRID_COLUMNS = 4
+APP_IMAGE_WIDTH = 250
+APP_IMAGE_HEIGHT = 100
+GRID_COLUMNS = 5
 AVRDUDE = 'avrdude -pattiny85 -c %s' % AVRDUDE_PROGRAMMER
 
 games = [
