@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Sygeco 1"
 Date ""
-Rev "0.2"
+Rev "1.0"
 Comp "Sylphide Consulting"
 Comment1 ""
 Comment2 ""
