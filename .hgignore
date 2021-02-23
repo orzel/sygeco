@@ -37,3 +37,8 @@ _autosave*
 *-rescue.*
 gerbers.zip
 
+# launcher
+launcher/*.hex
+launcher/*.png
+launcher/*.jpeg
+launcher/*.jpg
