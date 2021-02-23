@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-23 17:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: launcher.py:94
+msgid "Boring..."
+msgstr ""
+
+#: launcher.py:94
+msgid "Please wait while the game is being sent to the game console."
+msgstr ""
+
+#: launcher.py:109 launcher.py:128
+msgid "Oops..!"
+msgstr ""
+
+#: launcher.py:110
+msgid ""
+"It didn't work. Are you sure all is well connected ?\n"
+"Otherwise.. please call daddy or mummy."
+msgstr ""
+
+#: launcher.py:111 launcher.py:130
+msgid "Beware !"
+msgstr ""
+
+#: launcher.py:114 launcher.py:116
+msgid "Yeah !"
+msgstr ""
+
+#: launcher.py:115
+msgid ""
+"The game is installed.\n"
+"You can take your console back and play."
+msgstr ""
+
+#: launcher.py:129
+msgid ""
+"Either the programmer or the game console is not well connected\n"
+"Check your connections."
+msgstr ""

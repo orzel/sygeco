@@ -7,6 +7,10 @@ import sys
 from time import sleep
 from os import listdir
 from subprocess import call
+import gettext
+gettext.bindtextdomain('launcher', 'locale')
+gettext.textdomain('launcher')
+_ = gettext.gettext
 
 # pyside2
 from PySide2.QtCore import Qt, Signal, QCoreApplication
@@ -80,7 +84,7 @@ class MainWindow(QMainWindow):
 
     def uploadCode(self, codefilename):
         # Create 'wait' dialog
-        msg = QMessageBox(QMessageBox.Information, "C'est long", "Patiente pendant que le jeux est envoyé sur la console.", QMessageBox.NoButton)
+        msg = QMessageBox(QMessageBox.Information, _("Boring..."), _("Please wait while the game is being sent to the game console."), QMessageBox.NoButton)
         msg.setStandardButtons(QMessageBox.NoButton); # it's supposed to be the default according to doc, but they lie, an ok button is added
 
         # Display it
@@ -95,14 +99,14 @@ class MainWindow(QMainWindow):
         msg = QMessageBox()
         if return_value !=0:
             msg.setIcon(QMessageBox.Critical)
-            msg.setText("Oops..!")
-            msg.setInformativeText("Cela n'a pas marché, est-ce que tout est bien branché ??\nSinon appelle papa !")
-            msg.setWindowTitle("Attention !")
+            msg.setText(_("Oops..!"))
+            msg.setInformativeText(_("It didn't work. Are you sure all is well connected ?\nOtherwise.. please call daddy or mummy."))
+            msg.setWindowTitle(_("Beware !"))
         else:
             msg.setIcon(QMessageBox.Information)
-            msg.setText("Youpi !")
-            msg.setInformativeText("Le jeux est bien installé.\nTu peux débrancher.")
-            msg.setWindowTitle("Youpi !")
+            msg.setText(_("Yeah !"))
+            msg.setInformativeText(_("The game is installed.\nYou can take your console back and play."))
+            msg.setWindowTitle(_("Yeah !"))
 
         msg.exec_()
 
@@ -114,9 +118,9 @@ class MainWindow(QMainWindow):
         if call(AVRDUDE, shell=True)!=0:
             msg = QMessageBox()
             msg.setIcon(QMessageBox.Critical)
-            msg.setText("Oops..!")
-            msg.setInformativeText('Je ne trouve pas le programmeur ou la console !\nVerifie que tout est bien branché.')
-            msg.setWindowTitle("Attention !")
+            msg.setText(_("Oops..!"))
+            msg.setInformativeText(_("Either the programmer or the game console is not well connected\nCheck your connections."))
+            msg.setWindowTitle(_("Beware !"))
             msg.exec_()
 
 app = QApplication(sys.argv)

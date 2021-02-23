@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-23 15:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: launcher.py:101
+msgid "Boring..."
+msgstr "C'est long..."
+
+#: launcher.py:101
+msgid "Please wait while the game is being sent to the game console."
+msgstr "Patiente pendant que le jeux est envoyé sur la console."
+
+#: launcher.py:116 launcher.py:135
+msgid "Oops..!"
+msgstr "Oops..!"
+
+#: launcher.py:117
+msgid ""
+"It didn't work. Are you sure all is well connected ?\n"
+"Otherwise.. please call daddy or mummy."
+msgstr "Cela n'a pas marché, est-ce que tout est bien branché ??\nSinon appelle papa ou maman."
+
+#: launcher.py:118 launcher.py:137
+msgid "Beware !"
+msgstr "Attention !"
+
+#: launcher.py:121 launcher.py:123
+msgid "Yeah !"
+msgstr "Youpii !"
+
+#: launcher.py:122
+msgid ""
+"The game is installed.\n"
+"You can take your console back and play."
+msgstr "Le jeux est bien installé.\nTu peux débrancher."
+
+#: launcher.py:136
+msgid ""
+"Either the programmer or the game console is not well connected\n"
+"Check your connections."
+msgstr "Je ne trouve pas le programmeur ou la console !\nVerifie que tout est bien branché."
