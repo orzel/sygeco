@@ -36,6 +36,7 @@ activity.png
 _autosave*
 *-rescue.*
 gerbers.zip
+*-backups
 
 # launcher
 launcher/*.hex
