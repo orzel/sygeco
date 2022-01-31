@@ -23,7 +23,7 @@ msgstr "C'est long..."
 
 #: launcher.py:101
 msgid "Please wait while the game is being sent to the game console."
-msgstr "Patiente pendant que le jeux est envoyé sur la console."
+msgstr "Patiente pendant que le jeu est envoyé sur la console."
 
 #: launcher.py:116 launcher.py:135
 msgid "Oops..!"
@@ -47,7 +47,7 @@ msgstr "Youpii !"
 msgid ""
 "The game is installed.\n"
 "You can take your console back and play."
-msgstr "Le jeux est bien installé.\nTu peux débrancher."
+msgstr "Le jeu est bien installé.\nTu peux débrancher."
 
 #: launcher.py:136
 msgid ""
