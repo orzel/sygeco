@@ -29,6 +29,7 @@ activity.png
 .vscode/ipch
 
 # kicad:
+*.kicad_prl
 *-bak
 *-cache
 *.bck
@@ -37,9 +38,11 @@ _autosave*
 *-rescue.*
 gerbers.zip
 *-backups
+output/sygeco-1.0.gerbers.zip
 
 # launcher
 launcher/*.hex
 launcher/*.png
 launcher/*.jpeg
 launcher/*.jpg
+
