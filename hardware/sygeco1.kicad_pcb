@@ -3185,7 +3185,7 @@
 
   (footprint "sygeco:silicone_rubber_pad" (layer "B.Cu")
     (tedit 0) (tstamp bf41d6fe-fa84-49b3-8da9-49c3125bfc9d)
-    (at 152.019 61.254 180)
+    (at 151.13 59.857 180)
     (property "Sheetfile" "sygeco1.kicad_sch")
     (property "Sheetname" "")
     (path "/ce36d8ef-84cf-476d-a3bf-8bd0be4b94bf")
@@ -3204,7 +3204,7 @@
 
   (footprint "sygeco:silicone_rubber_pad" (layer "B.Cu")
     (tedit 0) (tstamp ee369852-826e-4ae1-b65d-57b0e2f3f8db)
-    (at 133.35 59.984 180)
+    (at 133.35 59.857 180)
     (property "Sheetfile" "sygeco1.kicad_sch")
     (property "Sheetname" "")
     (path "/3ba48b37-a50b-4b87-b884-578f3e1b886c")
