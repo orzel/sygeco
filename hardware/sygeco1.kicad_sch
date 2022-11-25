@@ -1947,7 +1947,7 @@
     (property "Value" "ATtiny85-20P" (id 1) (at 104.648 80.4422 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (id 2) (at 118.11 78.74 0)
+    (property "Footprint" "sygeco1:dual-dip8-sop8" (id 2) (at 118.11 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" (id 3) (at 118.11 78.74 0)
@@ -2160,7 +2160,7 @@
       (reference "SW2") (unit 1) (value "SW_Push_DPDT") (footprint "sygeco:DPDT_Switch_with_lock")
     )
     (path "/25d9567d-ae96-495e-b9a6-57b1f43d7140"
-      (reference "U1") (unit 1) (value "ATtiny85-20P") (footprint "Package_DIP:DIP-8_W7.62mm")
+      (reference "U1") (unit 1) (value "ATtiny85-20P") (footprint "sygeco1:dual-dip8-sop8")
     )
   )
 )
