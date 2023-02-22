@@ -58,8 +58,8 @@ fp-info-cache
 
 # kicad: my owns
 #*-rescue.*
-gerbers.zip
-output/*.gerbers.zip
+output/*.zip
+*.pdf
 
 # sygeco launcher
 launcher/*.hex
