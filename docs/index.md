@@ -7,6 +7,8 @@ This is [open hardware](https://en.wikipedia.org/wiki/Open-source_hardware),
 the PCB is designed with [KiCAD](https://en.wikipedia.org/wiki/KiCad]), and source files can be found on the
 ([mercurial](https://en.wikipedia.org/wiki/Mercurial)) repository at [https://freehackers.org/electronics/sygeco1](https://freehackers.org/electronics/sygeco1).
 
+It is written by [Thomas Capricelli](https://freehackers.org/thomas/).
+
 [ ![overview](overview.png){: style="width:450px;display:block;margin:auto;"} ](overview.png)
 
 # Introduction
