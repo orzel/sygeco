@@ -109,6 +109,13 @@ The PCB allows for both variant of the MCU: through-hole, and SMD. I choose the 
 I do not intend to provide kits on tindie or whatever. I have a few spare PCBs though, [contact me](https://freehackers.org/thomas/feedback/)
 if interested, especially if you happen to live near Paris/France.
 
+## Downloads
+
+The reference is the repository, but for your convenience, here are some 'final products' downloads.
+
+* [sygeco-1.0-launcher.zip](https://freehackers.org/projects/downloads/sygeco-1.0-launcher.zip) : launcher + all games and images I could find.
+* [sygeco-1.0.gerbers.zip](https://freehackers.org/projects/downloads/sygeco-1.0.gerbers.zip) : Gerber files, all files required for "PCB printing".
+
 ## Gallery
 
 Some more photos and images:
