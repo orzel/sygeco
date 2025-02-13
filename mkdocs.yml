@@ -1,0 +1,8 @@
+site_name: Sygeco 1
+
+markdown_extensions:
+  - attr_list
+
+theme:
+  name: mkdocs
+  color_mode: dark
