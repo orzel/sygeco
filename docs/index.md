@@ -115,8 +115,8 @@ if interested, especially if you happen to live near Paris/France.
 
 The reference is the repository, but for your convenience, here are some 'final products' downloads.
 
-* [sygeco-1.0-launcher.zip](https://freehackers.org/projects/downloads/sygeco-1.0-launcher.zip) : launcher + all games and images I could find.
-* [sygeco-1.0.gerbers.zip](https://freehackers.org/projects/downloads/sygeco-1.0.gerbers.zip) : Gerber files, all files required for "PCB printing".
+* [sygeco-1.0-launcher.zip](https://projects.freehackers.org/downloads/sygeco-1.0-launcher.zip) : launcher + all games and images I could find.
+* [sygeco-1.0.gerbers.zip](https://projects.freehackers.org/downloads/sygeco-1.0.gerbers.zip) : Gerber files, all files required for "PCB printing".
 
 ## Gallery
 

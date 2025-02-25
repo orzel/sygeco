@@ -1,11 +1,10 @@
 
 Small console based on attiny85, compatible with tinyjoypad.
 
-The official homepage and mercurial repository are at https://freehackers.org/electronics/sygeco1/
+The official homepage is https://freehackers.org/projects/sygeco1/
+and the mercurial repository is at https://freehackers.org/electronics/sygeco1/
 
 It is written by [Thomas Capricelli](https://freehackers.org/thomas/).
-
-More information is available [on the hackaday page](https://hackaday.io/project/177743-sygeco/)
 
 The `hardware/` directory contains kicad files for the schematics and pcb, as well as some support files for parts and 3d rendering.
 The `launcher/` directory provides a PyQt script to easily select and program any game. It's easily customizable, if you want to add/change games or configure the `avrdude` programmer used.
