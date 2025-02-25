@@ -1,7 +1,7 @@
 
 Small console based on attiny85, compatible with tinyjoypad.
 
-The official homepage is https://freehackers.org/projects/sygeco1/
+The official homepage is https://projects.freehackers.org/sygeco1/
 and the mercurial repository is at https://freehackers.org/electronics/sygeco1/
 
 It is written by [Thomas Capricelli](https://freehackers.org/thomas/).
