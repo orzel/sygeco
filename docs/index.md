@@ -11,7 +11,7 @@ It is written by [Thomas Capricelli](https://freehackers.org/thomas/).
 
 [ ![overview](overview.png){: style="width:450px;display:block;margin:auto;"} ](overview.png)
 
-# Introduction
+## Introduction
 
 The tinyjoypad is a fun exemple of how minimalist a *game console* can be. The schematic is so simple, that a breadboard photo is enough, and the software is open (arduino). That sounded great !
 
