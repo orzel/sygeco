@@ -12,10 +12,10 @@ gettext.bindtextdomain('launcher', 'locale')
 gettext.textdomain('launcher')
 _ = gettext.gettext
 
-# pyside2
-from PySide2.QtCore import Qt, Signal, QCoreApplication
-from PySide2.QtGui import QPixmap, QColor
-from PySide2.QtWidgets import QMainWindow, QApplication, QLabel, QGridLayout, QGroupBox, QWidget, QVBoxLayout, QMessageBox
+# pyside
+from PySide6.QtCore import Qt, Signal, QCoreApplication
+from PySide6.QtGui import QPixmap, QColor
+from PySide6.QtWidgets import QMainWindow, QApplication, QLabel, QGridLayout, QGroupBox, QWidget, QVBoxLayout, QMessageBox
 
 
 #
