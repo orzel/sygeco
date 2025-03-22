@@ -111,6 +111,8 @@ The PCB allows for both variant of the MCU: through-hole, and SMD. I choose the 
 I do not intend to provide kits on tindie or whatever. I have a few spare PCBs though, [contact me](https://freehackers.org/thomas/feedback/)
 if interested, especially if you happen to live near Paris/France.
 
+A very useful tool while soldering is the [interactive bom](ibom.html).
+
 ## Downloads
 
 The reference is the repository, but for your convenience, here are some 'final products' downloads.
