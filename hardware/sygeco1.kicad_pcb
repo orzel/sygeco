@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Sygeco")
-		(rev "1.0")
+		(rev "1.2")
 		(company "Sylphide Consulting")
 	)
 	(layers
