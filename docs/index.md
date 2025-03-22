@@ -130,3 +130,5 @@ Some more photos and images:
 
 [ ![overview 2](overview2.png){: style="width:450px;display:block;margin:auto;"} ](overview2.png)
 
+A funny, beautiful, interactive 3D view of [the populated PCB](kicad-pcb-3dview.html)
+
