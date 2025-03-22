@@ -2343,7 +2343,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "sygeco:silicone_rubber_pad"
+			(property "Footprint" "sygeco1:silicone_rubber_pad"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3458,7 +3458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sygeco:BatteryHolder_China_1x20mm"
+		(property "Footprint" "sygeco1:BatteryHolder_China_1x20mm"
 			(at 29.21 117.856 90)
 			(effects
 				(font
@@ -3724,7 +3724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sygeco:DPDT_Switch_with_lock"
+		(property "Footprint" "sygeco1:DPDT_Switch_with_lock"
 			(at 41.91 109.22 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sygeco:DPDT_Switch_with_lock"
+		(property "Footprint" "sygeco1:DPDT_Switch_with_lock"
 			(at 156.21 71.12 0)
 			(effects
 				(font
@@ -6063,7 +6063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sygeco:silicone_rubber_pad"
+		(property "Footprint" "sygeco1:silicone_rubber_pad"
 			(at 30.48 43.18 0)
 			(effects
 				(font
@@ -6127,7 +6127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sygeco:silicone_rubber_pad"
+		(property "Footprint" "sygeco1:silicone_rubber_pad"
 			(at 22.86 50.8 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sygeco:silicone_rubber_pad"
+		(property "Footprint" "sygeco1:silicone_rubber_pad"
 			(at 22.86 43.18 0)
 			(effects
 				(font
@@ -6255,7 +6255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sygeco:silicone_rubber_pad"
+		(property "Footprint" "sygeco1:silicone_rubber_pad"
 			(at 30.48 50.8 0)
 			(effects
 				(font

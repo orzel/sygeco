@@ -169,7 +169,7 @@
     (property "Value" "silicone_rubber_pad" (id 1) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "sygeco:silicone_rubber_pad" (id 2) (at 0 0 0)
+    (property "Footprint" "sygeco1:silicone_rubber_pad" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
