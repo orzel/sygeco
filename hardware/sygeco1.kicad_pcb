@@ -6906,7 +6906,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ae79a702-bb80-488c-a3d2-2caa8a6e1258")
 	)
-	(gr_text "Version 1.1"
+	(gr_text "Version 1.2"
 		(at 154.559 74.93 90)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00005fa6b95f")
