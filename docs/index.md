@@ -115,10 +115,10 @@ A very useful tool while soldering is the [interactive bom](ibom.html).
 
 ## Downloads
 
-The reference is the repository, but for your convenience, here are some 'final products' downloads.
+The reference is the repository, but for your convenience, here are some 'final products' downloads (revision 1.2).
 
-* [sygeco-1.0-launcher.zip](https://projects.freehackers.org/downloads/sygeco-1.0-launcher.zip) : launcher + all games and images I could find.
-* [sygeco-1.0.gerbers.zip](https://projects.freehackers.org/downloads/sygeco-1.0.gerbers.zip) : Gerber files, all files required for "PCB printing".
+* [sygeco-1.2.launcher.zip](https://projects.freehackers.org/downloads/sygeco-1.2.launcher.zip) : launcher + all games and images I could find.
+* [sygeco-1.2.gerbers.zip](https://projects.freehackers.org/downloads/sygeco-1.2.gerbers.zip) : Gerber files, all files required for "PCB printing".
 
 ## Gallery
 
