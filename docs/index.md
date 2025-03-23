@@ -4,7 +4,7 @@ There are several *implementations* of the tinyjoypad mini-console, but none **w
 This is my take on it. I also wrote a child-friendly interface to allow for changing the game (aka *flash new firmware*).
 
 This is [open hardware](https://en.wikipedia.org/wiki/Open-source_hardware),
-the PCB is designed with [KiCAD](https://en.wikipedia.org/wiki/KiCad]), and source files can be found on the
+the PCB is designed with [KiCad](https://en.wikipedia.org/wiki/KiCad]), and source files can be found on the
 ([mercurial](https://en.wikipedia.org/wiki/Mercurial)) repository at [https://freehackers.org/electronics/sygeco1](https://freehackers.org/electronics/sygeco1).
 
 It is written by [Thomas Capricelli](https://freehackers.org/thomas/).
@@ -33,7 +33,7 @@ I did that before I was aware of [this great project](https://github.com/Yevgeni
 
 It should accept any 'game' made for the tinyjoypad, including those by the original author, and others. Yevgeniy Olexandrenko did a great job [gathering the binaries on his page](https://github.com/Yevgeniy-Olexandrenko/tiny-handheld/tree/master/software/games).
 
-The project was developed using KiCAD, all files are on the repository (schematics, PCB, and final gerbers for printing).
+The project was developed using KiCad, all files are on the repository (schematics, PCB, and final gerbers for printing).
 
 ## Launcher
 
@@ -126,7 +126,7 @@ Some more photos and images:
 
 [ ![3dview.back](3dview.back.png){: style="width:450px;display:block;margin:auto;"} ](3dview.back.png)
 
-[ ![kicad pcb](kicad_pcb.png){: style="width:450px;display:block;margin:auto;"} ](kicad_pcb.png)
+[ ![KiCad pcb](kicad_pcb.png){: style="width:450px;display:block;margin:auto;"} ](kicad_pcb.png)
 
 [ ![overview 2](overview2.png){: style="width:450px;display:block;margin:auto;"} ](overview2.png)
 
