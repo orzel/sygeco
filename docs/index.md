@@ -4,7 +4,7 @@ There are several *implementations* of the tinyjoypad mini-console, but none **w
 This is my take on it. I also wrote a child-friendly interface to allow for changing the game (aka *flash new firmware*).
 
 This is [open hardware](https://en.wikipedia.org/wiki/Open-source_hardware),
-the PCB is designed with [KiCad](https://en.wikipedia.org/wiki/KiCad]), and source files can be found on the
+the PCB is designed with [KiCad](https://en.wikipedia.org/wiki/KiCad), and source files can be found on the
 ([mercurial](https://en.wikipedia.org/wiki/Mercurial)) repository at [https://freehackers.org/electronics/sygeco1](https://freehackers.org/electronics/sygeco1).
 
 It is written by [Thomas Capricelli](https://freehackers.org/thomas/).
